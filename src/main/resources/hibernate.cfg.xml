@@ -21,7 +21,7 @@
 		<!-- 格式化sql 语句 -->
 		<property name="hibernate.format_sql">true</property>
 		<!-- 开启二级缓存 -->
-		<property name="hibernate.cache.use_second_level_cache">false</property>
+		<property name="hibernate.cache.use_second_level_cache">true</property>
 		<!-- #9.2 设置缓存提供商    hibernate支持多种提供商，而且需要我们自己加 jar 包
 			【注意】 下面是 hibernate 4 的设置方法
 			<property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
